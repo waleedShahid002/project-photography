@@ -99,7 +99,7 @@ nav ul li a
 {
     padding: 15px 30px;
     left: 48px;
-    top: 24px;
+    top: 100px;
     width: 100%;
     height: 100%;
     text-decoration: none;
@@ -125,7 +125,21 @@ nav ul li a
 {
     position: absolute;
     top: -50px;
-    left: 580px;
+    left: 700px;
+}
+
+.camera
+{
+    position: relative;
+    bottom: 90px;
+    left: 1000px;
+}
+
+.car
+{
+    position: relative;
+    bottom: 342px;
+    left: 700px;
 }
 
 .second-content
@@ -405,3 +419,82 @@ nav ul li a
     left: 345px;
     font-family: Poppins, "Regular";
   }
+
+  .hero3
+{
+    position: absolute;
+    left: 130px;
+    top: 1100px;
+    width: 438px;
+    height: 600px;
+    
+    justify-content: start;
+    align-items: start;
+}
+
+.hero3 h1
+{
+  width: 653.39013671875px;
+  height: 360px;
+  color: #2b3d4f;
+  font-size: 65px;
+  font-family: Poppins, "Bold";
+  font-weight: 700;
+  text-align: left;
+  vertical-align: top;
+}
+
+.hero3 p
+{
+    position: relative;
+    bottom: 180px;
+    width: 450px;
+    height: 108px;
+    color: #07356dd6;
+    font-size: 18px;
+    font-family: Poppins, "Regular";
+    font-weight: 400;
+    text-align: left;
+    vertical-align: top;
+}
+
+.request-button
+{
+    position: relative;
+    padding: 15px 30px;
+    right: 100px;
+    bottom: 180px; 
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #f15a4d;
+    color: #fcf3f3;
+    font-size: 20px;
+    font-family: Poppins, "Medium";
+    font-weight: 500;
+    text-align: left;
+    vertical-align: top;
+}
+
+.map-img
+{
+    position: relative;
+    top: 600px;
+    right: 510px;
+}
+
+.culture-img
+{
+    position: relative;
+    top: -40px;
+}
+
+.personality-img
+{
+    position: relative;
+    bottom: 700px;
+    left: 500px;
+}
+
