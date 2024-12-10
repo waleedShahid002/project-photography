@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Poppins, "Regular";
+   
 }
 
 body
@@ -45,8 +47,16 @@ nav ul li a
     font-size: 20px;
     font-family: Poppins, "SemiBold";
     font-weight: 600;
+    transition: color 0.3s ;
     
 }
+
+nav ul li a:hover{
+  background-color: #c35105;
+  color: white;
+}
+
+
 
 .hire-btn
 {
@@ -56,9 +66,21 @@ nav ul li a
     border: none;
     border-radius: 5px;
     font-weight: bold;
+    
+    cursor: pointer;
 
    }
 
+   .hire-btn:hover{background-color: #141210;}
+    
+   .hire-btn:active
+   {
+    transform: translateY(4px);
+   }
+
+  
+  
+  
 .hero
 {
     position: absolute;
@@ -113,7 +135,35 @@ nav ul li a
     font-weight: 500;
     text-align: left;
     vertical-align: top;
+    transition: all 0.5s;
+    cursor: pointer;
+
 }
+
+.booking-btn span {
+    cursor: pointer;
+    /* display: inline-block;
+    position: relative; */
+    transition: 0.5s;
+  }
+  
+  .booking-btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: -1;
+    left: 240px;
+    transition: 0.5s;
+  }
+  
+  .booking-btn:hover span {
+    padding-right: 25px;
+  }
+  
+  .booking-btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
 
 .relative-container
 {
@@ -122,21 +172,22 @@ nav ul li a
     width: 50px;
 }
 
-.absolute-image
+#absolute-image
 {
     position: absolute;
     top: -50px;
     left: 700px;
 }
 
-.camera
+
+#camera
 {
     position: relative;
     bottom: 90px;
     left: 1000px;
 }
 
-.car
+#car
 {
     position: relative;
     bottom: 342px;
@@ -150,7 +201,7 @@ nav ul li a
     width: 100px;
 }
 
-.absolute-image2
+#absolute-image2
 {
     position: absolute;
     top: 850px;
@@ -205,7 +256,7 @@ nav ul li a
   vertical-align: top;
 }
 
-.explore-btn
+#explore-btn
 {
     position: relative;
     padding: 15px 30px;
@@ -222,7 +273,34 @@ nav ul li a
     font-weight: 500;
     text-align: left;
     vertical-align: top;
+    transition: all 0.5s;
+    cursor: pointer;
 }
+
+.explore-btn span {
+    cursor: pointer;
+    /* display: inline-block;
+    position: relative; */
+    transition: 0.5s;
+  }
+  
+  .explore-btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: -1;
+    left: 210px;
+    transition: 0.5s;
+  }
+  
+  .explore-btn:hover span {
+    padding-right: 25px;
+  }
+  
+  .explore-btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
 
 .options
 {
@@ -435,7 +513,7 @@ nav ul li a
 
 .hero3 h1
 {
-  width: 653.39013671875px;
+  width: 653px;
   height: 360px;
   color: #2b3d4f;
   font-size: 65px;
@@ -459,7 +537,7 @@ nav ul li a
     vertical-align: top;
 }
 
-.request-button
+#request-btn
 {
     position: relative;
     padding: 15px 30px;
@@ -477,22 +555,49 @@ nav ul li a
     font-weight: 500;
     text-align: left;
     vertical-align: top;
+    transition: all 0.5s;
+    cursor: pointer;
 }
 
-.map-img
+.request-btn span {
+    cursor: pointer;
+    /* display: inline-block;
+    position: relative; */
+    transition: 0.5s;
+  }
+  
+  .request-btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: -1;
+    left: 210px;
+    transition: 0.5s;
+  }
+  
+  .request-btn:hover span {
+    padding-right: 25px;
+  }
+  
+  .request-btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+#map-img
 {
     position: relative;
     top: 600px;
     right: 510px;
 }
 
-.culture-img
+#culture-img
 {
     position: relative;
     top: -40px;
 }
 
-.personality-img
+#personality-img
 {
     position: relative;
     bottom: 700px;
@@ -540,49 +645,49 @@ nav ul li a
   vertical-align: top;
 }
 
-.night
+#night
 {
     position: absolute;
     right: 670px;
     bottom: -450px;
 }
 
-.laptop
+#laptop
 {
     position: absolute;
     right: 250px;
     bottom: -448px;
 }
 
-.sea
+#sea
 {
   position: absolute;
   bottom: -1300px;
   left: 110px;
 }
 
-.autumn
+#autumn
 {
     position: absolute;
     bottom: -888px;
     left: 540px;
 }
 
-.man
+#man
 {
     position: absolute;
     bottom: -1305px;
     left: 538px;
 }
 
-.crane
+#crane
 {
     position: absolute;
     bottom: -1305px;
     left: 945px;
 }
 
-.studio
+#studio
 {
     position: absolute;
     width: 1100px;
@@ -619,7 +724,7 @@ nav ul li a
   vertical-align: top;
 }
 
-.studio-btn
+#studio-btn
 {
     position: relative;
     padding: 15px 30px;
@@ -637,26 +742,181 @@ nav ul li a
     font-weight: 500;
     text-align: left;
     vertical-align: top;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
-.room
+#studio-btn span {
+    cursor: pointer;
+    /* display: inline-block;
+    position: relative; */
+    transition: 0.5s;
+  }
+  
+  #studio-btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: -1;
+    left: 210px;
+    transition: 0.5s;
+  }
+  
+  #studio-btn:hover span {
+    padding-right: 25px;
+  }
+  
+  #studio-btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+#room
 {
     position: absolute;
     top: 60px;
     right: 200px;
 }
 
-.studio-img
+#studio-img
 {
     position: absolute;
     bottom:285px ;
     right: -35px;
 }
 
-.table
+#table
 {
     position: absolute;
     top: 330px;
     right: 35px;
 }
+
+footer {
+    
+    position: absolute;
+    top: 2200px;
+    width: 100%;
+  }
+  
+  footer .inner {
+    background-color:  #f7d8d8;
+    color:#0d2843bf;
+    position: relative;
+    top: 150px;
+    left: -40px;
+    border-radius: 15px;
+  }
+  
+  footer .inner svg {
+    position: absolute;
+    top: 0;
+    width: 40%;
+    left: -5px;
+    z-index: 5;
+  }
+  
+  footer .footer-up {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 50px;
+    position: relative;
+    z-index: 10;
+  }
+  
+  footer .footer-up .about {
+    margin-left: 25px;
+  }
+  
+  footer .footer-up .about img {
+    max-width: 250px;
+    width: 100%;
+  }
+  
+  footer .footer-up .about p {
+    padding: 10px;
+    
+  }
+  
+  footer .footer-up menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  footer .footer-up menu h1 {
+    font-size: 20px;
+    padding: 20px 0;
+    text-transform: uppercase;
+    
+  }
+  
+  footer .footer-up menu a {
+    display: block;
+    padding: 5px 0;
+    text-transform: capitalize;
+    
+  }
+  
+  
+
+  
+  footer .footer-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 20px;
+    border-top: 1px solid ;
+    position: relative;
+    z-index: 10;
+    flex-wrap: wrap;
+  }
+  
+  
+  
+  footer .footer-bar .sm-box {
+    display: flex;
+  }
+  
+  footer .footer-bar .sm-box p {
+    margin: 0 10px;
+  }
+  
+  footer .footer-bar .sm-box a {
+    margin: 0 5px;
+    
+  }
+  
+  
+  
+  footer .footer-bar .sm-box a i {
+    font-weight: 400;
+  }
+  
+  @media screen and (max-width: 880px) {
+    footer .footer-up {
+      grid-template-columns: 100%;
+    }
+    footer .inner svg {
+      width: 100%;
+      max-height: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    footer .footer-bar {
+      justify-content: center;
+    }
+    footer .footer-bar p {
+      text-align: center;
+    }
+    footer .footer-bar .sm-box {
+      margin-top: 10px;
+    }
+  }
+
+
+  
+  
+  
 
