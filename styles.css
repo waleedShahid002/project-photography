@@ -1125,6 +1125,155 @@ footer .footer-bar .sm-box a i {
           resize: none;
       }
 
+      .strategy
+      {
+        position: relative;
+        top: 100px;
+        left: 50px;
+        background-color: rgb(210, 132, 132);
+        height: 500px;
+        width: 300px;
+        border-radius: 10px;
+      }
+
+      #bulb
+      {
+        position: relative;
+        left: 130px;
+        top: 50px;
+      }
+      .strategy h2{
+        position: relative;
+        left: 110px;
+        top: 60px;
+      }
+
+      .strategy p
+      {
+        position: relative;
+        top: 90px;
+        text-align: center;
+        color: rgb(16, 8, 35);
+      }
+
+      .result
+      {
+        position: relative;
+        top: -500px;
+        left: 450px;
+        background-color: rgb(244, 153, 196);
+        height: 500px;
+        width: 300px;
+        border-radius: 10px;
+      }
+
+      #horn
+      {
+        position: relative;
+        left: 140px;
+        top: 50px;
+      }
+      .result h2{
+        position: relative;
+        left: 110px;
+        top: 60px;
+      }
+
+      .result p
+      {
+        position: relative;
+        top: 90px;
+        text-align: center;
+        color: rgb(16, 8, 35);
+      }
+
+      .expertise
+      {
+        position: relative;
+        top: -900px;
+        left: 850px;
+        background-color: rgb(233, 35, 35);
+        height: 500px;
+        width: 300px;
+        border-radius: 10px;
+      }
+
+      #expert
+      {
+        position: relative;
+        left: 140px;
+        top: 50px;
+      }
+      .expertise h2{
+        position: relative;
+        left: 110px;
+        top: 60px;
+      }
+
+      .expertise p
+      {
+        position: relative;
+        top: 90px;
+        text-align: center;
+        color: rgb(16, 8, 35);
+      }
+
+
+      .support
+      {
+        position: relative;
+        top: -1500px;
+        left: 1250px;
+        background-color: rgb(86, 160, 107);
+        height: 500px;
+        width: 300px;
+        border-radius: 10px;
+      }
+
+      #sup
+      {
+        position: relative;
+        left: 140px;
+        top: 50px;
+      }
+      .support h2{
+        position: relative;
+        left: 110px;
+        top: 60px;
+      }
+
+      .support p
+      {
+        position: relative;
+        top: 90px;
+        text-align: center;
+        color: rgb(16, 8, 35);
+      }
+
+.view-btn
+{
+  position: relative;
+  top: 180px;
+  left: 90px;
+  padding: 10px 20px;
+  background-color: #bde00b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  
+  cursor: pointer;
+
+ }
+
+ .hire-btn:hover{background-color: #141210;}
+  
+ .hire-btn:active
+ {
+  transform: translateY(4px);
+ }
+
+      
 
 
 
