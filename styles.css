@@ -101,7 +101,7 @@ color: white;
 
 .hero h1
 {
-width: 653.39013671875px;
+width: 653px;
 height: 360px;
 color: #2b3d4f;
 font-size: 96px;
@@ -258,7 +258,7 @@ vertical-align: top;
 
 .hero2 h1
 {
-width: 615.6728515625px;
+width: 615px;
 height: 120px;
 color: #2b3d4f;
 font-size: 48px;
@@ -270,7 +270,7 @@ vertical-align: top;
 
 .hero2 p
 {
-width: 496.748779296875px;
+width: 496px;
 height: 81px;
 color: #2b3d4fbf;
 font-size: 18px;
@@ -485,7 +485,7 @@ vertical-align: top;
 
 .text-section h1
 {
-width: 615.6728515625px;
+width: 615px;
 height: 50px;
 color: #2b3d4f;
 font-size: 48px;
@@ -497,7 +497,7 @@ vertical-align: top;
 
 .text-section p
 {
-  width: 496.748779296875px;
+  width: 496px;
   height: 81px;
   color: #2b3d4fbf;
   font-size: 18px;
@@ -946,13 +946,7 @@ footer .inner {
   border-radius: 15px;
 }
 
-footer .inner svg {
-  position: absolute;
-  top: 0;
-  width: 40%;
-  left: -5px;
-  z-index: 5;
-}
+
 
 footer .footer-up {
   display: grid;
@@ -966,10 +960,7 @@ footer .footer-up .about {
   margin-left: 25px;
 }
 
-footer .footer-up .about img {
-  max-width: 250px;
-  width: 100%;
-}
+
 
 footer .footer-up .about p {
   padding: 10px;
@@ -1013,24 +1004,12 @@ footer .footer-bar {
 
 
 
-footer .footer-bar .sm-box {
-  display: flex;
-}
-
-footer .footer-bar .sm-box p {
-  margin: 0 10px;
-}
-
-footer .footer-bar .sm-box a {
-  margin: 0 5px;
-  
-}
 
 
 
-footer .footer-bar .sm-box a i {
-  font-weight: 400;
-}
+
+
+
 
 @media screen and (max-width: 880px) {
   footer .footer-up {
@@ -1266,9 +1245,9 @@ footer .footer-bar .sm-box a i {
 
  }
 
- .hire-btn:hover{background-color: #141210;}
+ .view-btn:hover{background-color: #141210;}
   
- .hire-btn:active
+ .view-btn:active
  {
   transform: translateY(4px);
  }
